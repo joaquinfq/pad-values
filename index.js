@@ -67,7 +67,7 @@ function fillRight(value, pad)
  *
  * @return {String[]} Listado de textos formateados.
  */
-function padKeys(values, length = 0, char = ' ', left = false)
+function padValues(values, length = 0, char = ' ', left = false)
 {
     values     = checkValues(values);
     length     = checkLength(values, length);
@@ -80,7 +80,7 @@ function padKeys(values, length = 0, char = ' ', left = false)
 }
 
 module.exports = Object.assign(
-    padKeys,
+    padValues,
     {
         /**
          * Formatea cada texto en un listado agregando por la izquierda el caracter especificado
@@ -96,7 +96,7 @@ module.exports = Object.assign(
          */
         left(values, length = 0, char = ' ')
         {
-            return padKeys(values, length, char, true);
+            return padValues(values, length, char, true);
         },
         /**
          * Formatea cada texto en un listado agregando por la derecha el caracter especificado
@@ -112,7 +112,7 @@ module.exports = Object.assign(
          */
         right(values, length = 0, char = ' ')
         {
-            return padKeys(values, length, char, false);
+            return padValues(values, length, char, false);
         }
     }
 );

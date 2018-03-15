@@ -9,7 +9,7 @@ Pad each value in array.
 Code:
 
 ```js
-const data        = {
+const data      = {
     'Enero'      : '1,23€',
     'Febrero'    : '25,54€',
     'Marzo'      : '2,69€',

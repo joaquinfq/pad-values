@@ -1,6 +1,6 @@
 {
     "name"        : "pad-values",
-    "version"     : "1.0.0",
+    "version"     : "1.0.1",
     "description" : "Pad each value in array",
     "main"        : "index.js",
     "scripts"     : {
