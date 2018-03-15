@@ -1,0 +1,26 @@
+{
+    "name"        : "pad-values",
+    "version"     : "1.0.0",
+    "description" : "Pad each value in array",
+    "main"        : "index.js",
+    "scripts"     : {
+        "test" : "node test.js"
+    },
+    "repository"  : {
+        "type" : "git",
+        "url"  : "git+https://github.com/joaquinfq/pad-values.git"
+    },
+    "keywords"    : [
+        "align",
+        "key",
+        "padding",
+        "property",
+        "str-pad"
+    ],
+    "author"      : "Joaquín Fernández <public@joaquinfernandez.net>",
+    "license"     : "MIT",
+    "bugs"        : {
+        "url" : "https://github.com/joaquinfq/pad-values/issues"
+    },
+    "homepage"    : "https://github.com/joaquinfq/pad-values#readme"
+}
